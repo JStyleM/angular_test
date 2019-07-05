@@ -6,4 +6,13 @@ import { Component } from '@angular/core';
 })
 export class BodyComponent {
 
+    frase: any = {
+        mensaje: 'Un gran poder conlleva una gran responsabilidad',
+        autor: 'Ben Parker'
+    };
+
+    mostrar = true;
+
+    personajes: string[] = ['Jhonatan', 'Roberto', 'Adrian'];
+
 }
